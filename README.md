@@ -1,7 +1,13 @@
-# [![straw_hat](https://github.com/user-attachments/assets/d9e24e5a-8335-4da4-ac4a-3d45be40f10f)](https://mugiwaraboshi.vercel.app) MugiwaraBōshi
+<h3 align="center">
+    <a target="_blank" href="https://mugiwaraboshi.vercel.app"><img  src="https://github.com/user-attachments/assets/1b64f5a7-0994-4714-9b9a-0f2c189d0e70" alt="straw_hat" />
+</h3>
+  
+</br>
 
-[![still_under_development](https://github.com/user-attachments/assets/39339367-3ac7-4a3b-b3c6-3bc4eeb6d118)](https://mugiwaraboshi.vercel.app)
-
+<p align="start">
+    <a target="_blank" href="https://mugiwaraboshi.vercel.app"><img  src="https://github.com/user-attachments/assets/39339367-3ac7-4a3b-b3c6-3bc4eeb6d118" alt="still_under_development" />
+</p>
+      
 ## Overview
 
 This is a website for the series OnePiece, it includes bio and information about the main character and his crew the "Straw Hats", with updated data on bounties and progress of power from the latest manga releases
