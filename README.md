@@ -12,7 +12,7 @@
 
 This is a website for the series OnePiece, it includes bio and information about the main character and his crew the "Straw Hats", with updated data on bounties and progress of power from the latest manga releases
 
-- [Live Preview](https://mangapunch.vercel.app)
+- [Live Preview](https://mugiwaraboshi.vercel.app)
 
 - Website designed by [Moaz Tobok](https://www.dreambymoaz.com/)
 
