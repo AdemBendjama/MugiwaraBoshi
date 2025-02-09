@@ -1,20 +1,23 @@
-# MugiwaraBōshi
+# ![manga_64x64](https://github.com/AdemBendjama/Manga-Tracker-App/assets/93732841/88af71e0-8d26-4f5a-a880-d3032d506c39) MugiwaraBōshi
 
-This template should help get you started developing with Vue 3 in Vite.
+![cog](https://github.com/AdemBendjama/Manga-Tracker-App/assets/93732841/f805d633-11c5-4061-be8b-acc8e24e861b) _Still Under Development_
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This is a website for the series OnePiece, it includes bio and information about the main character and his crew the "Straw Hats", with updated data on bounties and progress of power from the latest manga releases
 
-## Type Support for `.vue` Imports in TS
+- [Live Preview](https://mangapunch.vercel.app)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Website designed by [Moaz Tobok](https://www.dreambymoaz.com/)
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Vue.js**: A progressive JavaScript framework for building user interfaces and single-page applications.
+- **Vue Router**: The official router for Vue.js, enabling navigation and dynamic URL handling in single-page applications.
+- **Vite**: A fast and lightweight build tool optimized for modern web development, particularly with Vue.js.
+- **Vercel**: A cloud platform for static sites and serverless functions, used for deploying Vue.js applications.
 
-## Project Setup
+## Getting Started
 
 ```sh
 pnpm install
@@ -30,10 +33,4 @@ pnpm dev
 
 ```sh
 pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
 ```
