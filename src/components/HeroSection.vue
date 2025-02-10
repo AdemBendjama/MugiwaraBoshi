@@ -39,6 +39,7 @@
   font-weight: 700;
   line-height: 128px;
   color: white;
+  font-family: 'Poppins';
 }
 
 .main-icon {
@@ -51,5 +52,6 @@
   font-size: 31px;
   font-weight: 600;
   color: white;
+  font-family: 'Poppins';
 }
 </style>
