@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeroSection from '@/components/HeroSection.vue'
+</script>
 
 <template>
-  <h1>One Piece</h1>
+  <HeroSection />
 </template>
