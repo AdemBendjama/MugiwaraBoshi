@@ -1,7 +1,7 @@
 <h3 align="center">
-    <a target="_blank" href="https://mugiwaraboshi.vercel.app"><img  src="https://github.com/user-attachments/assets/1b64f5a7-0994-4714-9b9a-0f2c189d0e70" alt="straw_hat" />
+    <a target="_blank" href="https://mugiwaraboshi.vercel.app"><img  src="https://github.com/user-attachments/assets/baf22236-59dd-43a6-bbe8-6abbf032cacd" alt="straw_hat" />
 </h3>
-  
+
 </br>
 
 <p align="start">
