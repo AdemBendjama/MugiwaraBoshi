@@ -1,14 +1,19 @@
+<script setup lang="ts">
+import PlayVideo from './PlayVideo.vue'
+</script>
+
 <template>
   <section class="wrapper">
-    <img class="main-bg" src="/main_bg.png" alt="straw hat luffy" />
-    <div class="main-sect">
-      <h1 class="main-head">
+    <img class="bg" src="/main_bg.png" alt="straw hat luffy" />
+    <div class="sect">
+      <h1 class="head">
         ONE PIECE
-        <img class="main-icon" src="/straw_hat.png" alt="red straw hat" />
+        <img class="icon" src="/straw_hat.png" alt="red straw hat" />
       </h1>
-      <p class="main-desc">GET TO KNOW THE FUTURE PIRATES KING</p>
+      <p class="desc">GET TO KNOW THE FUTURE PIRATES KING</p>
     </div>
     <img class="gear-5" src="/gear_5_luffy.png" alt="gear 5 luffy one piece" />
+    <PlayVideo />
   </section>
 </template>
 
@@ -18,11 +23,11 @@
   overflow: hidden;
 }
 
-.main-bg {
+.bg {
   width: 100%;
 }
 
-.main-sect {
+.sect {
   position: absolute;
   top: 120px;
   right: 70px;
@@ -33,7 +38,7 @@
   gap: 8px;
 }
 
-.main-head {
+.head {
   position: relative;
   font-size: 8rem;
   font-weight: 700;
@@ -42,13 +47,13 @@
   font-family: 'Poppins';
 }
 
-.main-icon {
+.icon {
   position: absolute;
   right: -56px;
   top: -24px;
 }
 
-.main-desc {
+.desc {
   font-size: 2rem;
   font-weight: 600;
   color: white;
@@ -79,11 +84,11 @@
   .gear-5 {
     width: 600px;
   }
-  .main-head {
+  .head {
     font-size: 7rem;
     line-height: 7rem;
   }
-  .main-desc {
+  .desc {
     font-size: 1.5rem;
   }
 }
@@ -92,11 +97,11 @@
   .gear-5 {
     width: 850px;
   }
-  .main-head {
+  .head {
     font-size: 11rem;
     line-height: 11rem;
   }
-  .main-desc {
+  .desc {
     font-size: 2.6rem;
   }
 }
