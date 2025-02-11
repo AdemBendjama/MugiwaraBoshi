@@ -1,17 +1,12 @@
 <script setup lang="ts">
+import HeroHeading from './HeroHeading.vue'
 import PlayVideo from './PlayVideo.vue'
 </script>
 
 <template>
   <section class="wrapper">
     <img class="bg" src="/main_bg.png" alt="straw hat luffy" />
-    <div class="sect">
-      <h1 class="head">
-        ONE PIECE
-        <img class="icon" src="/straw_hat.png" alt="red straw hat" />
-      </h1>
-      <p class="desc">GET TO KNOW THE FUTURE PIRATES KING</p>
-    </div>
+    <HeroHeading />
     <img class="gear-5" src="/gear_5_luffy.png" alt="gear 5 luffy one piece" />
     <PlayVideo />
   </section>
@@ -25,39 +20,6 @@ import PlayVideo from './PlayVideo.vue'
 
 .bg {
   width: 100%;
-}
-
-.sect {
-  position: absolute;
-  top: 120px;
-  right: 70px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-
-.head {
-  position: relative;
-  font-size: 8rem;
-  font-weight: 700;
-  line-height: 8rem;
-  color: white;
-  font-family: 'Poppins';
-}
-
-.icon {
-  position: absolute;
-  right: -56px;
-  top: -24px;
-}
-
-.desc {
-  font-size: 2rem;
-  font-weight: 600;
-  color: white;
-  font-family: 'Poppins';
 }
 
 .gear-5 {
@@ -84,25 +46,11 @@ import PlayVideo from './PlayVideo.vue'
   .gear-5 {
     width: 600px;
   }
-  .head {
-    font-size: 7rem;
-    line-height: 7rem;
-  }
-  .desc {
-    font-size: 1.5rem;
-  }
 }
 
 @media (min-width: 1920px) {
   .gear-5 {
     width: 850px;
-  }
-  .head {
-    font-size: 11rem;
-    line-height: 11rem;
-  }
-  .desc {
-    font-size: 2.6rem;
   }
 }
 </style>
