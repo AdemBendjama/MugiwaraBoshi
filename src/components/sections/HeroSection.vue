@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HeroHeading from './HeroHeading.vue'
-import PlayVideo from './PlayVideo.vue'
+import HeroHeading from './_components/HeroHeading.vue'
+import PlayVideo from './_components/PlayVideo.vue'
 // import Button from './ui/button/Button.vue'
 </script>
 

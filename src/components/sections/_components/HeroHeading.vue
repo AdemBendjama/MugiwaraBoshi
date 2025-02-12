@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HeroTitle from './svgs/HeroTitle.vue'
+import HeroTitle from '@/components/svgs/HeroTitle.vue'
 </script>
 
 <template>
