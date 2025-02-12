@@ -40,3 +40,9 @@ pnpm dev
 ```sh
 pnpm build
 ```
+
+### Preview Production Build
+
+```sh
+pnpm preview
+```
