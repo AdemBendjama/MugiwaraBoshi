@@ -5,10 +5,14 @@ import PlayVideo from './PlayVideo.vue'
 </script>
 
 <template>
-  <section class="wrapper">
-    <img class="bg" src="/main_bg.png" alt="straw hat luffy" />
+  <section class="relative overflow-hidden h-screen">
+    <img class="w-full h-screen object-cover" src="/main_bg.png" alt="straw hat luffy" />
     <HeroHeading />
-    <img class="gear-5 animate-gear-5" src="/gear_5_luffy.png" alt="gear 5 luffy one piece" />
+    <img
+      class="absolute bottom-0 right-24 animate-gear-5 3xl:w-[650px] 2xl:w-[550px] xl:w-[450px] w-[300px]"
+      src="/gear_5_luffy.png"
+      alt="gear 5 luffy one piece"
+    />
     <PlayVideo />
   </section>
   <!-- <div class="h-96">
@@ -16,35 +20,3 @@ import PlayVideo from './PlayVideo.vue'
     <Button>Click me Please</Button>
   </div> -->
 </template>
-
-<style scope>
-.wrapper {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-}
-
-.bg {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-}
-
-.gear-5 {
-  position: absolute;
-  bottom: 0;
-  right: 30px;
-}
-
-@media (max-width: 1366px) {
-  .gear-5 {
-    width: 600px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .gear-5 {
-    width: 850px;
-  }
-}
-</style>

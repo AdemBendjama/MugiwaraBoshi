@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PlayButton from './PlayButton.vue'
+import PlayButton from './svgs/PlayButton.vue'
 </script>
 
 <template>

@@ -4,7 +4,14 @@
 @plugin "tailwindcss-animate";
 
 @theme {
-  --breakpoint-xs: 480px;
+  --font-family-poppins: "Poppins", "sans-serif"
+}
+
+@theme {
+  /* needs to be in rem format or it won't work */
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 90rem;
+  --breakpoint-3xl: 120rem;
 }
 
 @theme {
