@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import CustomButton from '@/components/ui/button/CustomButton.vue'
 import { CarouselContent, CarouselItem } from '@/components/ui/carousel'
 import Carousel from '@/components/ui/carousel/Carousel.vue'
 </script>
 
 <template>
   <div class="flex flex-row gap-16 pr-12 py-32">
-    <div class="basis-2/3">
+    <div class="basis-2/3 relative">
+      <CustomButton class="absolute -top-14 -right-10 -rotate-4 z-50">THE CREW</CustomButton>
       <Carousel
         :opts="{
           align: 'end',
