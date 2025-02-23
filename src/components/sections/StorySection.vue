@@ -1,13 +1,47 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted, ref } from 'vue'
 import CustomButton from '../ui/button/CustomButton.vue'
+import type { CarouselApi } from '../ui/carousel'
 import Carousel from '../ui/carousel/Carousel.vue'
 import CarouselContent from '../ui/carousel/CarouselContent.vue'
 import CarouselItem from '../ui/carousel/CarouselItem.vue'
+
+const api = ref<CarouselApi>()
+
+const currentSlide = ref(2)
+
+let interval: number
+
+const setApi = (val: CarouselApi) => {
+  api.value = val
+}
+
+onMounted(() => {
+  interval = setInterval(() => {
+    if (currentSlide.value === 2) {
+      currentSlide.value = 7
+    } else {
+      currentSlide.value = 2
+    }
+    api.value?.scrollTo(currentSlide.value)
+  }, 3000)
+})
+
+onUnmounted(() => {
+  clearInterval(interval)
+})
 </script>
 
 <template>
   <div class="h-screen flex flex-col gap-4 items-center justify-between">
-    <Carousel class="px-7">
+    <Carousel
+      @init-api="setApi"
+      :opts="{
+        loop: true,
+        startIndex: currentSlide,
+      }"
+      class="px-7"
+    >
       <CarouselContent class="-ml-16">
         <CarouselItem
           v-for="(_, index) in 10"
