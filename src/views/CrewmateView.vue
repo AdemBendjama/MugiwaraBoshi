@@ -42,7 +42,7 @@ const id = route.params.id
 <template>
   <div
     :style="{ backgroundImage: `url('/crew/background/bg_${id}.jpg')` }"
-    class="bg-cover bg-top bg-no-repeat"
+    class="bg-cover bg-top bg-no-repeat pt-24"
   >
     <div
       class="bg-white text-black 3xl:w-[1440px] 3xl:mx-auto mx-24 mb-24 px-44 pt-9 pb-11 flex flex-col items-center relative"
@@ -77,11 +77,11 @@ const id = route.params.id
         </p>
       </div>
       <div class="flex flex-col gap-7 justify-center pt-32 w-full">
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-2">
           <div
             v-for="(item, index) in luffyBounties"
             :key="index"
-            class="w-full col-span-2 flex"
+            class="w-full col-span-2 flex min-h-40 relative"
             :class="
               index === luffyBounties.length - 1
                 ? 'justify-center'
@@ -102,6 +102,11 @@ const id = route.params.id
               </div>
               <p class="font-medium text-sm text-justify">{{ item.event }}</p>
             </div>
+            <div
+              v-if="index !== luffyBounties.length - 1"
+              class="absolute top-1 left-0 right-0 mx-auto w-1 h-full bg-black"
+            />
+            <div class="absolute top-0 left-0 right-0 mx-auto bg-black w-3 h-3 rounded-full" />
           </div>
         </div>
       </div>
