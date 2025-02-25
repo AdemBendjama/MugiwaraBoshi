@@ -4,7 +4,7 @@ import Button from './Button.vue'
 
 <template>
   <Button
-    class="min-w-80 h-24 border-[5px] border-black rounded-none uppercase text-[22px] leading-8 tracking-widest font-bold"
+    class="min-w-80 h-24 border-[5px] border-black rounded-none uppercase text-[22px] leading-8 tracking-widest font-bold hover:bg-primary"
   >
     <slot />
   </Button>
