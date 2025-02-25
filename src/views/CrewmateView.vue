@@ -32,7 +32,7 @@ const luffyBounties = [
   {
     bounty: '3,000,000,000',
     event:
-      "For making Wano Country one of his territories, leading the Raid on Onigashima, being involved in the defeat of the Emperors Charlotte Linlin and Kaidou, and the awakening of the Gomu Gomu no Mi, his bounty was raised to 3,000,000,000, and he was officially recognized as one of the Four Emperors. By mistake, Luffy got a new wanted poster showing his awakened form and still containing the 'D.' in his name, which was intended to be removed.",
+      'For making Wano Country one of his territories, leading the Raid on Onigashima, the involvement in the defeat of the Emperors Charlotte Linlin and Kaidou and the awakening of the Gomu Gomu no Mi, his bounty was raised to 3,000,000,000 and he was officially recognized as one of the Four Emperors. By a mistake, Luffy got a new wanted poster, showing his awakened form, and still containing the D. in his name, which was intended to be removed.',
   },
 ]
 
