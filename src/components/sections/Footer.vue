@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-12 pb-16 flex flex-col gap-16 3xl:w-[1440px] 3xl:px-0 mx-auto px-32">
+  <div class="py-12 flex flex-col gap-8 3xl:w-[1440px] 3xl:px-0 mx-auto px-32">
     <div class="flex gap-8">
       <a href="https://www.dreambymoaz.com/" target="_blank"
         ><img src="/moaz.png" alt="moaz tobok"
