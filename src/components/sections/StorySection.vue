@@ -48,11 +48,13 @@ onUnmounted(() => {
           :key="index"
           class="basis-1/5 py-9 pl-16 flex justify-center"
         >
-          <img
-            class="3xl:w-[300px] 3xl:h-[300px] 2xl:w-[230px] 2xl:h-[230px]"
-            :src="`/crew/avatars/crew_${index + 1}.jpg`"
-            alt="crew member of straw pirates"
-          />
+          <RouterLink :to="`/crewmate/${index + 1}`">
+            <img
+              class="3xl:w-[300px] 3xl:h-[300px] 2xl:w-[230px] 2xl:h-[230px]"
+              :src="`/crew/avatars/crew_${index + 1}.jpg`"
+              alt="crew member of straw pirates"
+            />
+          </RouterLink>
         </CarouselItem>
       </CarouselContent>
     </Carousel>

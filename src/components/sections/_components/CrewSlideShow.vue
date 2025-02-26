@@ -38,11 +38,13 @@ watch(api, (api) => {
       >
         <CarouselContent class="-mr-4">
           <CarouselItem v-for="(_, index) in 9" :key="index" class="basis-12/14 pr-4">
-            <img
-              :src="`/crew/figure/crew_${index + 1}.png`"
-              alt="straw hat crewmate"
-              class="border-black border-2 rounded-[42px] 3xl:w-[1000px]"
-            />
+            <RouterLink :to="`/crewmate/${index + 2}`">
+              <img
+                :src="`/crew/figure/crew_${index + 1}.png`"
+                alt="straw hat crewmate"
+                class="border-black border-2 rounded-[42px] 3xl:w-[1000px]"
+              />
+            </RouterLink>
           </CarouselItem>
         </CarouselContent>
       </Carousel>

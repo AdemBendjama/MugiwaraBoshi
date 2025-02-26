@@ -1,5 +1,5 @@
 <template>
-  <RouterLink to="/1">
+  <RouterLink to="/crewmate/1">
     <div class="relative group hover:cursor-pointer">
       <img
         class="group-hover:hidden w-full object-cover -z-50 aspect-[2.5/1]"
